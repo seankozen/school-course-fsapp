@@ -9,13 +9,7 @@
     "dialect": "sqlite"
   },
   "production": {
-    "use_env_variable": "DATABASE_URL",
-    "dialect": "postgres",
-    "dialectOptions": {
-      "ssl": {
-        "require": true,
-        "rejectUnauthorized": false
-      }
-    }
+    "storage": "fsjstd-restapi.db",
+    "dialect": "sqlite"
   }
 }
