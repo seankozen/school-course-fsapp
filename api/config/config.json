@@ -9,7 +9,7 @@
     "dialect": "sqlite"
   },
   "production": {
-    "storage": "DATABASE_URL",
-    "dialect": "postgres"
+    "storage": "fsjstd-restapi.db",
+    "dialect": "sqlite"
   }
 }
